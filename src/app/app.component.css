@@ -2,10 +2,22 @@
 body {
     background-color: #e5d2c4;
     display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+	flex-basis: auto;
+   
+    
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 79px;
+    margin-top: 10px;
+    margin-left: 72px;
+    margin-right: 100px;
+       
+    
+    
+    
 }
 
 .profile-img {
@@ -15,18 +27,26 @@ body {
     border: 5px solid #b16285;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     margin-top: 1px; /* Adicione este estilo para centralizar a imagem verticalmente */
-    margin-left: 35%;
+    margin-left: 1%;
+    
 }
 
 h1, h3 {
     text-align: center;
     color:#b16285;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    display: flex;
+    
+    
+    
+    
 }
 
 p {
-    text-align: center;
+    text-align: left;
     color: #2F2B31;
     font-family: 'Caveat', cursive;
+    display: flex;
 
 }
+
